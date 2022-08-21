@@ -107,7 +107,7 @@ transition: all 0.5s ease-in-out;
 .container-slide-show{
     width: 100%;
     height: auto;
-    max-width: 550px;
+    max-height: 550px;
     overflow: hidden;
 }
 
@@ -560,9 +560,15 @@ justify-content: center;
     
     .map { grid-area: map; width: 100%; height: 200px;}
     
+
+
+    /*------------------------------------------------*/
     .disable {
         display: none;
     }
+
+   
+
 }
 
 
