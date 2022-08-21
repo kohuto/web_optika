@@ -499,7 +499,7 @@ justify-content: center;
 
     
     .flip-card-front img, .flip-card-front, .flip-card-back, .flip-card-inner, .flip-card, .profile-cards-container {
-        border-radius: 100px
+        border-radius: 100px;
     }
 
     .services-container-mobile {
@@ -507,7 +507,9 @@ justify-content: center;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 100px;;
+        padding-top: 100px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .services-container-mobile h1 {
