@@ -465,6 +465,9 @@ justify-content: center;
         justify-content: center;
         align-items: center;
     }
+    .flip-card-front img, .flip-card-front, .flip-card-back, .flip-card-inner, .flip-card, .profile-cards-container {
+    border-radius: 100px
+}
 
     .flip-card {
         margin-bottom: 50px;
