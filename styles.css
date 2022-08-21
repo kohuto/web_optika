@@ -148,6 +148,16 @@ transition: all 0.5s ease-in-out;
     }
 }
 
+@-moz-document url-prefix() {
+    .wrapper {
+        animation: none;
+    }
+
+    .mozilla-hidden {
+        display: none;
+    }
+  }
+
 .about-us-image {
     width: 35%;
     float: left;
