@@ -106,7 +106,8 @@ transition: all 0.5s ease-in-out;
 
 .container-slide-show{
     width: 100%;
-    height: 70vh;
+    height: auto;
+    max-width: 550px;
     overflow: hidden;
 }
 
@@ -443,7 +444,7 @@ justify-content: center;
 /*--------------------------------------------------------------*/
 
     .container-slide-show{
-        height: 45vh;
+        height: auto;
     }
 
     .about-us-container {
