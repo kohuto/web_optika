@@ -300,7 +300,7 @@ width: 0;
 height: auto;
 transition: all 450ms ease-in;
 }
-.infocardContainer:hover div *{
+.infocardContainer:hover div * {
 display: flex;
 visibility: visible;
 transition: all 1s ease-out;
@@ -309,7 +309,7 @@ width: 100%;
 height: auto;
 }
 
-.infocardContainer #main, .infocardContainer #main img{
+.infocardContainer .maininfocard, .infocardContainer .maininfocard img{
 height: 200px;
 width: 200px;
 padding-right: 10px;
@@ -317,7 +317,7 @@ border-radius: 100%;
 flex-shrink: 0;
 object-fit: cover;
 }
-.infocardContainer #main img{
+.infocardContainer .maininfocard img{
 height: 180px;
 width: 180px;
 transition: none;
@@ -327,7 +327,7 @@ border: 10px solid white;
 margin: 0 0 0 0; padding: 0 0 0 0;
 }
 
-.infocardContainer #textbois {
+.infocardContainer .textbois {
 margin-left: 5%;
 position: relative;
 display: flex;
