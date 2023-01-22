@@ -295,16 +295,17 @@ display: flex;
 overflow: hidden;
 text-overflow: hidden;
 color: white;
-white-space: nowrap;
+white-space: wrap;
 width: 0;
 height: auto;
 transition: all 450ms ease-in;
 }
+
 .infocardContainer:hover div * {
 display: flex;
 visibility: visible;
 transition: all 1s ease-out;
-transition-delay: 500ms;
+transition-delay: 50ms;
 width: 100%;
 height: auto;
 }
@@ -316,6 +317,7 @@ padding-right: 10px;
 border-radius: 100%;
 flex-shrink: 0;
 object-fit: cover;
+flex-wrap: wrap;
 }
 .infocardContainer .maininfocard img{
 height: 180px;
@@ -329,11 +331,15 @@ margin: 0 0 0 0; padding: 0 0 0 0;
 
 .infocardContainer .textbois {
 margin-left: 5%;
+margin-right: 10%;
 position: relative;
 display: flex;
 flex-direction: column;
 justify-content: center;
+
 }
+
+
 
 .contact-container {  
     width: 100%;
