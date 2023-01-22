@@ -12,6 +12,7 @@ body {
 font-family: "Roboto", sans-serif;
 font-weight: 300;
 overflow-x: hidden;
+
 }
 
 .nav-item-mobile {
@@ -179,6 +180,7 @@ transition: all 0.5s ease-in-out;
     float: left;
     width: 65%;
     font-size: 25px;
+    text-align: justify;
 }
 
 .about-us-text h1 {
@@ -190,7 +192,7 @@ transition: all 0.5s ease-in-out;
 .about-us-container {
     display: flex;
     padding-top: 100px;
-    
+    padding-right: 60px;
 }
 
 .profile-cards-container {
