@@ -202,8 +202,8 @@ transition: all 0.5s ease-in-out;
 
 .flip-card {
     background-color: transparent;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 400px;
     perspective: 1000px;
 }
   
@@ -235,8 +235,8 @@ color: black;
 }
 
 .flip-card-front img {
-    width: 200px; 
-    height: 200px;
+    width: 250px; 
+    height: 400px;
 }
 
 .flip-card-back {
