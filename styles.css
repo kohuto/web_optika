@@ -191,8 +191,8 @@ transition: all 0.5s ease-in-out;
 
 .about-us-container {
     display: flex;
-    padding-top: 100px;
     padding: 60px;
+    padding-top: 100px;
     
 }
 
@@ -491,18 +491,18 @@ font-size: 0.9em;
         height: auto;
     }
 
+    .about-us-image {
+            display: none;
+    }
+
     .about-us-container {
         display: block;
     }
 
-    .about-us-image {
-        display: none;
-    }
 
     .about-us-text {
-        display: block;
+        float:none;
         width: 100%;
-        
     }
 
     .about-us-container h1 {
