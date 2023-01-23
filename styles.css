@@ -170,7 +170,7 @@ transition: all 0.5s ease-in-out;
 
 .about-us-image img {
     display: block;
-    margin-left: 10%;
+    
     margin-right: auto;
     height: auto; 
     width:80%;
@@ -192,7 +192,8 @@ transition: all 0.5s ease-in-out;
 .about-us-container {
     display: flex;
     padding-top: 100px;
-    padding-right: 60px;
+    padding: 60px;
+    
 }
 
 .profile-cards-container {
@@ -492,8 +493,7 @@ font-size: 0.9em;
 
     .about-us-container {
         display: block;
-        padding-right: 20px;
-        padding-left: 20px;
+       
     }
 
     .about-us-image {
@@ -505,8 +505,6 @@ font-size: 0.9em;
         width: 100%;
         margin-top: 0;
         margin-bottom: 0;
-        margin-left: 20px;
-        margin-right: 20px;
     }
 
     .about-us-container h1 {
