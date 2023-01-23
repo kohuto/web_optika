@@ -492,6 +492,7 @@ font-size: 0.9em;
 
     .about-us-container {
         display: block;
+        align-items: center;
         padding: 0px;
     }
 
