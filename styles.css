@@ -605,7 +605,7 @@ font-size: 0.9em;
     
     .main-header { grid-area: main-header; margin-left: auto; margin-right: auto;}
     
-    .phone-logo { grid-area: phone-logo; margin-right: 20px; }
+    .phone-logo { grid-area: phone-logo; }
     
     .phone-text { grid-area: phone-text; }
     
