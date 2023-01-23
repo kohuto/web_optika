@@ -602,7 +602,7 @@ font-size: 0.9em;
     }
     @media screen and (max-width: 600px){
         .contact-container{
-            font-size: 13px;
+            font-size: 17px;
             grid-template-columns: 0.35fr 1fr;
         }
     }
