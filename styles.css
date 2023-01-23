@@ -491,7 +491,7 @@ font-size: 0.9em;
     }
 
     .about-us-container {
-        padding-right: 0px;  
+        padding: auto 0 auto 0;
     }
 
     .about-us-image {
