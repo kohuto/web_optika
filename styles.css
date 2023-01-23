@@ -588,7 +588,7 @@ font-size: 0.9em;
     display: grid;
     background-color: #007F84;
     color: #fff;
-    grid-template-columns: 0.3fr 1fr;
+    grid-template-columns: 0.17fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -600,7 +600,12 @@ font-size: 0.9em;
         "adress-logo adress-text"
         "map map";
     }
-    
+    @media screen and (max-width: 600px){
+        .contact-container{
+            font-size: 12px;
+            grid-template-columns: 0.35fr 1fr;
+        }
+    }
     .opening-hours-logo { grid-area: opening-hours-logo; }
     
     .opening-hours-text { grid-area: opening-hours-text; }
