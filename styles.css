@@ -552,15 +552,16 @@ font-size: 0.9em;
     
     .infocardContainerMobile .textbois {
         padding: 20px;
+        font-size: 0.9em;
     }
     
     .maininfocard img {
-        width: 10em;
-        height: 22.5em;
+        width: 20em;
+        height: 17em;
         border-radius: 0 0 0 46px;
         margin-right: 20px;
     }
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 700px){
         .infocardContainerMobile {
             flex-direction: column;
         }
