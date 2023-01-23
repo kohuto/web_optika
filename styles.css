@@ -493,7 +493,6 @@ font-size: 0.9em;
 
     .about-us-container {
         display: block;
-       
     }
 
     .about-us-image {
@@ -503,8 +502,7 @@ font-size: 0.9em;
     .about-us-text {
         display: block;
         width: 100%;
-        margin-top: 0;
-        margin-bottom: 0;
+        
     }
 
     .about-us-container h1 {
