@@ -541,7 +541,7 @@ font-size: 0.9em;
 
     .infocardContainerMobile {
         display: flex;
-        height: auto;
+        height: 17.5em;
         flex-direction: row;  
         margin-top: 20px;     
         border-color: #007F84;
@@ -564,6 +564,7 @@ font-size: 0.9em;
     @media screen and (max-width: 700px){
         .infocardContainerMobile {
             flex-direction: column;
+            height: auto;
         }
         
         .maininfocard img {
