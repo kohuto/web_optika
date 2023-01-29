@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+  <link rel="stylesheet" href="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Montserrat:600,700">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
 
@@ -223,6 +228,113 @@
     </div>
   </div>
 </div>
+
+<section>
+  <div class="container py-5">
+
+    <!-- FOR DEMO PURPOSE -->
+    <header class="text-center mb-5">
+      <div class="row">
+        <div class="col-lg-7 mx-auto">
+          <h1 id="cenik">Ceník</h1>
+        </div>
+      </div>
+    </header>
+    <!-- END -->
+ 
+
+
+    <div class="row text-center align-items-end">
+      <!-- Pricing Table-->
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="bg-white p-5 rounded-lg shadow price-list-card">
+        <div class="price-list-header">
+          <h1 class="h6 text-uppercase font-weight-bold mb-4">Komplexní vyšetření zraku (30-60 min)</h1>
+        </div>
+        <h2 class="h1 font-weight-bold">600,- *</h2>
+          <hr>
+         <div class="price-list-content">
+          <ul class="list-unstyled my-5 text-small text-left">
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Diagnostika a korekce refrakčních vad na dálku a do blízka</li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Vyšetření barvocitu</li>
+            </ul>
+          </div>
+          <ul class="list-unstyled my-5 text-small text-left">
+            <li class="mb-3">
+              <div class="footnotes">
+                <hr class="line-footnotes">
+              </div>
+            </li>
+            <li class="mb-3">* se založením zakázky do 7 dní při celkové ceně zakázky 4500 Kč a vyšší sleva 300 Kč z ceny měření</li>
+          </ul>
+        </div>
+      </div>
+      <!-- END -->
+
+
+      <!-- Pricing Table-->
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="bg-white p-5 rounded-lg shadow price-list-card">
+          <div class="price-list-header">
+          <h1 class="h6 text-uppercase font-weight-bold mb-4">První aplikace kontaktních čoček  (60-90 min)</h1>
+            </div>
+          <h2 class="h1 font-weight-bold">900,-</h2>
+
+          <hr>
+          <div class="price-list-content">
+            <ul class="list-unstyled my-5 text-small text-left">
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>Vyšetření refrakčních vad na dálku a do blízka</li>
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>Vyšetření předního segmentu oka na biomikroskopu</li>
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>Změření zakřivení rohovky</li>
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>Nácvik manipulace s kontaktní čočkou</li>
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>Zkušební kontaktní čočky, roztok případně pouzdro na kontaktní čočky</li>
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>První kontrola kontaktních čoček *</li>
+              </ul>
+            </div>
+            <ul class="list-unstyled my-5 text-small text-left">
+              <li class="mb-3">
+                <div class="footnotes">
+                  <hr class="line-footnotes">
+                </div>
+              </li>
+              <li class="mb-3">* odvíjí se od doporučení optometristou, u jednodenních kontaktních čoček přibližně za týden, u čtrnáctidenních a měsíčních přibližně po 2 týdnech</li>
+            </ul>
+        </div>
+      </div>
+      <!-- END -->
+
+
+      <!-- Pricing Table-->
+      <div class="col-lg-4">
+        <div class="bg-white p-5 rounded-lg shadow price-list-card">
+          <div class="price-list-header">
+          <h1 class="h6 text-uppercase font-weight-bold mb-4">Kontrola (15-20 min)</h1>
+        </div>
+          <h2 class="h1 font-weight-bold">200,-</h2>
+
+          <hr>
+          <div class="price-list-content">
+            <ul class="list-unstyled my-5 text-small text-left">
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>Pro zákazníky, kteří si u nás nekupují kontaktní čočky pravidelně a u kterých není kontrola zahrnuta v rámci první aplikace</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      <!-- END -->
+
+    </div>
+  </div>
+</section>
+
 
 <div id="kontakt" class="contact-container">
   <div class="main-header">Kontakt</div>

@@ -273,8 +273,9 @@ justify-content: center;
     text-decoration-color: #007F84;
 }
 .services-container {
-    padding: 100px;
-    margin-top: 10px; 
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 100px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -355,6 +356,63 @@ font-size: 0.9em;
 }
 
 
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.rounded-lg {
+    border-radius: 1rem !important;
+  }
+  
+  .text-small {
+    font-size: 0.9rem !important;
+  }
+  
+  .custom-separator {
+    width: 5rem;
+    height: 6px;
+    border-radius: 1rem;
+    background-color: #007F84 !important;
+    color: #007F84 !important;
+    
+  }
+  
+  .text-uppercase {
+    letter-spacing: 0.2em;
+  }
+    
+  .price-list-card {
+    height: 800px;
+  }
+
+  .price-list-header{
+    height: 80px;
+  }
+
+    .py-5 hr {
+        border: 3px solid #007F84;
+    border-radius: 50px;
+    }
+
+  .py-5 header h1 {
+    display: flex;
+    vertical-align: middle;
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: #007F84;
+}
+
+.py-5 .footnotes .line-footnotes{
+    border: 1px solid #9b9a9a;
+}
+  .price-list-content {
+    height: 330px;
+  }
 .contact-container {  
     width: 100%;
     height: 600px;
@@ -375,6 +433,9 @@ font-size: 0.9em;
       "map email-logo email-text"
       "map adress-logo adress-text";
 }
+
+
+
 
 .contact-container > div {
     text-align: left;
