@@ -593,8 +593,8 @@ font-size: 0.9em;
 
     .services-container-mobile h1 {
         font-size: 50px;
-    text-decoration-line: underline;
-    text-decoration-color: #007F84;
+        text-decoration-line: underline;
+        text-decoration-color: #007F84;
     }
 
     .infocardContainerMobile {
@@ -669,6 +669,21 @@ font-size: 0.9em;
         .contact-container{
             font-size: 15px;
             grid-template-columns: 0.35fr 1fr;
+        }
+        .about-us-text h1 {
+            font-size: 35px;
+        }
+        #sluzby-mobile h1 {
+            font-size: 35px;
+        }
+        #sluzby-mobile{
+            margin-top: -40px;
+        }
+        #cenik{
+            font-size: 35px;
+        }
+        #kontakt{
+            margin-top: 30px;
         }
     }
     .opening-hours-logo { grid-area: opening-hours-logo; }
