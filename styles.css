@@ -684,6 +684,10 @@ font-size: 0.9em;
         }
         #kontakt{
             margin-top: 30px;
+            height: 1200px;
+        }
+        .opening-hours-logo img {
+            width: 20px;
         }
     }
     .opening-hours-logo { grid-area: opening-hours-logo; }
@@ -707,6 +711,16 @@ font-size: 0.9em;
     .map { grid-area: map; width: auto; height: 400px; margin: 0;}
     
 
+    .opening-hours-logo img {width: 60px;}
+    .phone-logo img {width: 60px;}
+    .email-logo img {width: 60px;}
+    .adress-logo img {width: 60px;}
+    @media screen and (max-width: 500px){
+        .opening-hours-logo img {width: 40px;}
+        .phone-logo img {width: 40px;}
+        .email-logo img {width: 40px;}
+        .adress-logo img {width: 40px;}
+    }
 
     /*------------------------------------------------*/
     .disable {
