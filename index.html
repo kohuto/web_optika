@@ -4,6 +4,7 @@
   <title>Optika Říhová</title>
   <link rel="icon" href="images\logo\logo.png">
   <link rel="stylesheet" href="styles.css">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
@@ -34,16 +35,31 @@
 </nav>
 
 
-<div id="home" class="container-slide-show">
-  <div class="wrapper">
-    <img src="images\start_carousel\carousel4.jpg">
-    <img class="mozilla-hidden" src="images\start_carousel\carousel1.jpg">
-    <img class="mozilla-hidden" src="images\start_carousel\carousel2.jpg">
-    <img class="mozilla-hidden" src="images\start_carousel\carousel3.jpg">
-    <img class="mozilla-hidden" src="images\start_carousel\carousel4.jpg">
-  </div>
-</div>
+<div class="slideshow-container">
 
+  <div class="mySlides fade">
+    <img src="images/start_carousel/carousel1.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="images/start_carousel/carousel2.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="images/start_carousel/carousel3.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/start_carousel/carousel4.jpg" style="width:100%">
+  </div>
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(0)"></span> 
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
 
 <div id="about" class="about-us-container">
     <div class="about-us-image"><img src="images\about_us\kovovebryle.jpg"></div>
@@ -366,7 +382,7 @@
     <p>Masarykova třída 752, Orlová-Lutyně, 735&nbsp;14</p></div>
   <div id="mapid" class="map"></div>
 </div>
-
+<script src="script.js"></script>
 <script>
 	var mymap = L.map('mapid').setView([49.869690, 18.424741], 17);
 	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
