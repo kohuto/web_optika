@@ -31,6 +31,7 @@ background-color: white;
 border-bottom: 5px #007F84 solid;
 }
 .nav .logo img {
+    margin-left: 20px;
     height: 90px;
     width: 90px;
 }
@@ -147,7 +148,7 @@ transition: all 0.5s ease-in-out;
   from {opacity: .4} 
   to {opacity: 1}
 }
-@media only screen and (max-width: 463px) {
+@media only screen and (max-width: 500px) {
     .dot {height: 8px;
         width: 8px;}
   }
