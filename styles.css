@@ -686,9 +686,7 @@ font-size: 0.9em;
             margin-top: 30px;
             height: 1200px;
         }
-        .opening-hours-logo img {
-            width: 20px;
-        }
+       
     }
     .opening-hours-logo { grid-area: opening-hours-logo; }
     
